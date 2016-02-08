@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "package_demo">
+<listeners>
+    	<listener class-name="listener.TestsListenerAdapter" />
+</listeners>
+
+<test name = "verify_search">
+	<classes>
+		<class name = "package_demo.verify_search"></class>
+	</classes>
+</test>
+
+
+
+</suite>

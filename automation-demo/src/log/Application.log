@@ -1,0 +1,12 @@
+28/05/2015 14:48:58 devpinoyLogger Loading property files
+28/05/2015 14:48:58 devpinoyLogger Loading property complete
+28/05/2015 14:48:58 devpinoyLogger Initializing xlsx files
+28/05/2015 14:48:59 devpinoyLogger Initializing xlsx files complete
+28/05/2015 14:48:59 devpinoyLogger Martin Agency Suite started at 1432838939582
+28/05/2015 14:48:59 devpinoyLogger Checking runmode of Martin Agency Suite
+28/05/2015 14:49:09 devpinoyLogger expected = 28 Search Results for GEICO
+28/05/2015 14:49:09 devpinoyLogger actual = 28 Search Results for GEICO
+28/05/2015 14:49:18 devpinoyLogger expected = 0 Search Results for Selenium
+28/05/2015 14:49:18 devpinoyLogger actual = 0 Search Results for Selenium
+28/05/2015 14:49:18 devpinoyLogger Average final room render = 0.0 seconds
+28/05/2015 14:49:18 devpinoyLogger Time taken to run tests: 19seconds.

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "MySuite">
+	<listeners>
+    	<listener class-name="listener.TestsListenerAdapter" />
+	</listeners>
+
+	<suite-files>
+	<suite-file path="./package_demo.xml"/>
+	</suite-files>
+</suite>
