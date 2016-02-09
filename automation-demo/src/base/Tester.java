@@ -60,9 +60,7 @@ public class Tester {
 			FileInputStream ip = new FileInputStream(System.getProperty("user.dir") + "//src//config//config.properties");
 			CONFIG.load(ip);
 							
-			OR = new Properties();
-			FileInputStream ip2 = new FileInputStream(System.getProperty("user.dir") + "//src//config//OR.properties");
-			OR.load(ip2);
+			
 			
 			APP_LOGS.debug("Loading property complete");
 			// xls file
