@@ -46,11 +46,9 @@ public class verify_layout extends visual_tests{
 			
 		WebDriver driver;
         Capabilities cap;
-        
-        //Windows path
-        //System.setProperty("webdriver.chrome.driver", "C:\\Users\\jenkins\\workspace\\qa-automation\\chromedriver");
-        //OS X path
-        System.setProperty("webdriver.chrome.driver", "/Users/username/chromedriver");
+       
+        //The following should work for OS X and Windows
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//webdrivers//chromedriver");
       
         
         //Cookie cookie = new Cookie.Builder(name, value).domain(domain).build();

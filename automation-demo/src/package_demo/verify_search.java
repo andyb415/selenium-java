@@ -41,10 +41,9 @@ public class verify_search extends visual_tests{
         //System.out.println(URL);
         System.out.println(browser);
        
-        //Windows path
-        //System.setProperty("webdriver.chrome.driver", "C:\\Users\\jenkins\\workspace\\qa-automation\\chromedriver");
-        //OS X path
-        System.setProperty("webdriver.chrome.driver", "/Users/username/chromedriver");
+      //The following should work for OS X and Windows
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//webdrivers//chromedriver");
+      
 		if(!runmodes[count].equalsIgnoreCase("Y")){
 			skip = true;
 			APP_LOGS.debug("Skipping this row of data" + count);
